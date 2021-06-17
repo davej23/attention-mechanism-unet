@@ -15,6 +15,6 @@ U-Net with Attention Mechanism (AM) for Detecting Deforestation in Satellite Ima
 + requirements.txt -- Required Python libraries
 
 ## Releases
-+ Models.zip -- Pre-trained models of U-Net and AM U-Net on Regular and Regular (Augmented) data
++ Models.zip -- Pre-trained models of U-Net and AM U-Net on Regular and Regular (Augmented) data (NOT YET UP TO DATE)
 + amazon-processed-larger.zip -- Folder of numpy .npy arrays of processed GeoTIFFs from Large
 + amazon-processed-regular.zip -- Folder of numpy .npy arrays of processed data from Regular
