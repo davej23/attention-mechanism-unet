@@ -1,6 +1,6 @@
 # MSc Data Science Dissertation/Project
 
-U-Net with Attention Mechanism (AM) for Detecting Deforestation in Satellite Imagery
+An attention-based U-Net for detecting Amazon deforestation from satellite imagery.
 
 ## Datasets
 ### Amazon 1 (Regular) -- https://zenodo.org/record/3233081
