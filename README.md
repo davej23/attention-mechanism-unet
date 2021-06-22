@@ -7,14 +7,14 @@ An attention-based U-Net for detecting Amazon deforestation from satellite image
 + Update Models.zip with latest trained models
 
 ## Datasets
-### Amazon 1 (Regular) -- https://zenodo.org/record/3233081
-### Amazon 2 (Large) -- https://zenodo.org/record/4498086#.YMh3GfKSmCU
+### Amazon 1 (Regular Dataset) -- https://zenodo.org/record/3233081
+### Amazon 2 (Larger Dataset) -- https://zenodo.org/record/4498086#.YMh3GfKSmCU
 
 ## Files
-+ **dataset** -- Folder of original dataset from Regular.
++ **dataset** -- Folder of original dataset from Regular Dataset.
 + Experimentation.ipynb -- Jupyter notebook of data processing, augmentation, model training and testing.
-+ preprocess-large.py -- Python script to preprocess GeoTIFFs from Large.
-+ preprocess-regular.py -- Python script to preprocess data in Regular.
++ preprocess-large.py -- Python script to preprocess GeoTIFFs from Large Dataset.
++ preprocess-regular.py -- Python script to preprocess data in Regular Dataset.
 + model-evaluate.py -- Python script to print metrics (accuracy, precision, recall, F1-score) for U-Net, AM U-Net which are trained on different data.
 + requirements.txt -- Required Python libraries.
 
@@ -27,5 +27,5 @@ An attention-based U-Net for detecting Amazon deforestation from satellite image
 + Run model-evaluate.py.
 
 ## Releases
-+ Models.zip -- Pre-trained models of U-Net and AM U-Net on Regular and Regular (Augmented) data. (NOT YET UP TO DATE)
++ Models.zip -- Pre-trained models of U-Net and AM U-Net on augmented Regular Data.
 + amazon-processed.zip -- Contains folders of numpy .npy arrays of processed Large and Regular datasets.
