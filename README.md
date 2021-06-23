@@ -4,7 +4,6 @@ An attention-based U-Net for detecting Amazon deforestation from satellite image
 
 ## To Do
 + Fix ResNet and FCN implementations
-+ Update Models.zip with latest trained models
 
 ## Datasets
 ### Amazon 1 (Regular 3-dim Dataset) -- https://zenodo.org/record/3233081
