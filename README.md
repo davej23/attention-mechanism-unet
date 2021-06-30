@@ -8,6 +8,7 @@ An attention-based U-Net for detecting Amazon deforestation from satellite image
 
 ## Files
 + **dataset** -- Folder of original dataset from Regular Dataset.
++ **metrics** -- Folder of metrics (accuracy, precision, recall, F1-score) for each result.
 + Amazon-Map.png -- Custom-made image of location of Amazon and Atlantic Forest dataset images.
 + amazon-atlantic-forest-mapjpg.jpg -- Map of Atlantic Forest and Amazon region from: https://pubmed.ncbi.nlm.nih.gov/20433744/.
 + Experimentation.ipynb -- Jupyter notebook of data processing, augmentation, model training and testing.
