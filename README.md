@@ -1,7 +1,8 @@
 # MSc Data Science Dissertation/Project
 
-original title: An attention-based U-Net for detecting Amazon deforestation from satellite imagery.
-provisional title: An attention-based U-Net for detecting deforestation within satellite sensor imagery.
+Original title: An attention-based U-Net for detecting Amazon deforestation from satellite imagery.
+
+Provisional title: An attention-based U-Net for detecting deforestation within satellite sensor imagery.
 
 ## Datasets
 ### Amazon 1 (Regular 3-dim Dataset) -- https://zenodo.org/record/3233081
