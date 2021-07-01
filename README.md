@@ -8,11 +8,10 @@ An attention-based U-Net for detecting Amazon deforestation from satellite image
 
 ## Files
 + **dataset** -- Folder of original dataset from Regular Dataset.
++ **figures** -- Figures for report (amazon-atlantic-forest-mapjpg.jpg from https://pubmed.ncbi.nlm.nih.gov/20433744/).
 + **metrics** -- Folder of metrics (accuracy, precision, recall, F1-score) for each result.
-+ Amazon-Map.png -- Custom-made image of location of Amazon and Atlantic Forest dataset images.
-+ amazon-atlantic-forest-mapjpg.jpg -- Map of Atlantic Forest and Amazon region from: https://pubmed.ncbi.nlm.nih.gov/20433744/.
 + Experimentation.ipynb -- Jupyter notebook of data processing, augmentation, model training and testing.
-+ map.html -- Interactive map of location of Amazon and Atlantic Forest images made using Folium and GDAL in Python.
++ Figures.ipynb -- Jupyter notebook of figures found in **figures**.
 + model-evaluate.py -- Python script to print metrics (accuracy, precision, recall, F1-score) for U-Net, AM U-Net which are trained on different data.
 + preprocess-large.py -- Python script to preprocess GeoTIFFs from Large Dataset.
 + preprocess-regular.py -- Python script to preprocess data in Regular Dataset.
