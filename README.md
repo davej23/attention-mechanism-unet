@@ -1,7 +1,6 @@
 # MSc Data Science Dissertation/Project
 
 Original title: An attention-based U-Net for detecting Amazon deforestation from satellite imagery.
-
 Provisional title: An attention-based U-Net for detecting deforestation within satellite sensor imagery.
 
 ## Datasets
@@ -11,6 +10,7 @@ Provisional title: An attention-based U-Net for detecting deforestation within s
 ## Files
 + **dataset** -- Folder of original dataset from Regular Dataset.
 + **figures** -- Figures for report (amazon-atlantic-forest-mapjpg.jpg from https://pubmed.ncbi.nlm.nih.gov/20433744/).
+  + **shapefiles** -- Shapefiles for map. Amazon Shapefile from: (http://worldmap.harvard.edu/data/geonode:amapoly_ivb), rest from: (http://terrabrasilis.dpi.inpe.br/en/download-2/).
 + **metrics** -- Folder of metrics (accuracy, precision, recall, F1-score) for each result.
 + Experimentation.ipynb -- Jupyter notebook of data processing, augmentation, model training and testing.
 + Figures.ipynb -- Jupyter notebook of figures found in **figures**.
