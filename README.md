@@ -1,7 +1,6 @@
 # MSc Data Science Dissertation/Project
 
-Original title: An attention-based U-Net for detecting Amazon deforestation from satellite imagery.
-Provisional title: An attention-based U-Net for detecting deforestation within satellite sensor imagery.
+**An Attention-Based U-Net for Detecting Deforestation Within Satellite Sensor Imagery.**
 
 ## Datasets
 ### Amazon 1 (Regular 3-dim Dataset) -- https://zenodo.org/record/3233081
@@ -26,10 +25,3 @@ Provisional title: An attention-based U-Net for detecting deforestation within s
 + Download and extract pre-processed data from .zip files in Releases
   + **OR** Run preprocess-large.py and pre-process-regular.py scripts.
 + Run model-evaluate.py.
-
-## Releases
-+ U-Net Models.zip -- Pre-trained models of U-Net and Attention U-Net on augmented regular 3-dim data and larger 4-dim datasets, with history for each of training and validation losses.
-+ ResNet50-SegNet-Regular-Model.zip -- Pre-trained model of ResNet50-SegNet on augmented regular 3-dim data, with history of training and validation losses.
-+ ResNet50-SegNet-4-band-Models.zip -- Pre-trained model of ResNet50-SegNet on larger 4-dim datasets, with history for each of training and validation losses.
-+ FCN32-VGG16-Models.zip -- Pre-trained model of FCN32-VGG16 on larger 4-dim datasets, with history for each of training and validation losses.
-+ amazon-processed.zip -- Contains folders of numpy .npy arrays of processed Large and Regular datasets.
