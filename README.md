@@ -14,6 +14,7 @@
 + Experimentation.ipynb -- Jupyter notebook of data processing, augmentation, model training and testing.
 + Figures.ipynb -- Jupyter notebook of figures found in **figures**.
 + model-evaluate.py -- Python script to print metrics (accuracy, precision, recall, F1-score) for U-Net, AM U-Net which are trained on different data.
++ predictor.py -- Takes any input RGB image and outputs Attention U-Net-predicted deforestation mask to file.
 + preprocess-large.py -- Python script to preprocess GeoTIFFs from Large Dataset.
 + preprocess-regular.py -- Python script to preprocess data in Regular Dataset.
 + requirements.txt -- Required Python libraries.
