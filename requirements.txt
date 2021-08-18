@@ -11,3 +11,4 @@ patool
 matplotlib
 pandas
 pathlib
+sklearn
