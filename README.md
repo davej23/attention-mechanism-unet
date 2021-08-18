@@ -13,16 +13,18 @@
 + **metrics** -- Folder of metrics (accuracy, precision, recall, F1-score) for each result.
 + Experimentation.ipynb -- Jupyter notebook of data processing, augmentation, model training and testing.
 + Figures.ipynb -- Jupyter notebook of figures found in **figures**.
-+ model-evaluate.py -- Python script to print metrics (accuracy, precision, recall, F1-score) for U-Net, AM U-Net which are trained on different data.
 + predictor.py -- Takes any input RGB image and outputs Attention U-Net-predicted deforestation mask to file.
-+ preprocess-large.py -- Python script to preprocess GeoTIFFs from Large Dataset.
-+ preprocess-regular.py -- Python script to preprocess data in Regular Dataset.
++ preprocess-4band-amazon-data.py -- Python script to preprocess GeoTIFFs from 4-band Amazon Dataset and export as numpy pickles.
++ preprocess-rgb-data.py -- Python script to preprocess data in RGB Dataset and export as numpy pickles.
 + requirements.txt -- Required Python libraries.
 
 ## How to use
+### Obtaining Attention U-Net Deforestation Masks
 + Run pip -r requirements.txt to install libraries.
-+ Download and extract models from Models.zip in Releases.
-+ Download and extract Regular and Large datasets into current working directory from above links.
-+ Download and extract pre-processed data from .zip files in Releases
-  + **OR** Run preprocess-large.py and pre-process-regular.py scripts.
-+ Run model-evaluate.py.
++ Download 'unet-attention-3d.hdf5', 'unet-attention-4d.hdf5' and 'unet-attention-4d-atlantic.hdf5' models.
++ Run 'python predictor.py [INPUT IMAGE PATH]' or 'python3 predictor.py [INPUT IMAGE PATH]'.
+
+### Obtaining Pre-Processed Data
++ Run pip -r requirements.txt to install libraries.
++ Run 'preprocess-4band-amazon-data.py' to pre-process 4-band Amazon data.
++ Run 'preprocess-rgb-data.py' to pre-process RGB Amazon data.
