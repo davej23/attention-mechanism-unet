@@ -11,15 +11,21 @@ from PIL import Image
 import matplotlib.pyplot as plt
 from keras import backend as K
 import sys
-from sklearn.metrics import *
+#from sklearn.metrics import *
 
 # Import image and model
-image_dir = sys.argv[1]
+image_dir = sys.argv[2]
 
 image = Image.open(image_dir)
 image_array = np.array(image)/255
 
-model = load_model('unet-attention-3d.hdf5')
+model1 = load_model('unet-attention-3d.hdf5')
+model2 = load_model('unet-attention-4d.hdf5')
+model3 = load_model('unet-attention-4d-atlantic.hdf5')
+models = [model1, model2, model3]
+
+# Activate the specified model, according to sys.argv[1]
+model = models[int(sys.argv[1])]
 
 # Process image to be in 512x512 chunks
 def resize_image(im, input_array):
