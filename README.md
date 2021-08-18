@@ -28,4 +28,5 @@
 ### Obtaining Pre-Processed Data
 + Run pip -r requirements.txt to install libraries.
 + Run 'preprocess-4band-amazon-data.py' to pre-process 4-band Amazon data.
++ Run 'preprocess-4band-atlantic-forest-data.py' to pre-process 4-band Atlantic Forest data.
 + Run 'preprocess-rgb-data.py' to pre-process RGB Amazon data.
