@@ -9,7 +9,7 @@ import rioxarray as rxr
 # Ingest images
 base_dir2 = r"./AMAZON/"
 ## Training images
-training_images_list2 = os.listdir(r"{}Training/image/".format(base_dir2))
+training_images_list2 = os.listdir(r"{}Training/image/".format(base_dir2))[0:250]
 training_masks_list2 = []
 training_images2 = []
 for n in training_images_list2:
@@ -58,27 +58,35 @@ for n in validation_masks_list2:
 
 # Pre-process data
 for i in range(len(training_images2)):
+  #training_images2[i] = training_images2[i].reshape(1,512,512,4)
   training_images2[i] = training_images2[i].astype('float32')
   training_images2[i] = training_images2[i].T
 
 for i in range(len(training_masks2)):
+  #training_masks[i] = training_masks[i][:512,:512]
+  training_masks2[i] = training_masks2[i].reshape(1,512,512,1)
   training_masks2[i] = training_masks2[i].T
 
 for i in range(len(validation_images2)):
+  #validation_images2[i] = validation_images2[i].reshape(1,512,512,4)
   validation_images2[i] = validation_images2[i].astype('float32')
   validation_images2[i] = validation_images2[i].T
 
 for i in range(len(validation_masks2)):
+  #validation_masks2[i] = validation_masks2[i][:512,:512]
+  validation_masks2[i] = validation_masks2[i].reshape(1,512,512,1)
   validation_masks2[i] = validation_masks2[i].T
 
 for i in range(len(test_images2)):
+  #test_images2[i] = test_images2[i].reshape(1,512,512,4)
   test_images2[i] = test_images2[i].astype('float32')
   test_images2[i] = test_images2[i].T
 
 for i in range(len(test_masks2)):
+  #test_masks2[i] = test_masks2[i][:512,:512]
+  test_masks2[i] = test_masks2[i].reshape(1,512,512,1)
   test_masks2[i] = test_masks2[i].T
 
-# Reshape images
 for i in range(len(training_images2)):
   training_images2[i] = training_images2[i].reshape(-1,512,512,4)
 
@@ -87,16 +95,6 @@ for i in range(len(validation_images2)):
 
 for i in range(len(test_images2)):
   test_images2[i] = test_images2[i].reshape(-1,512,512,4)
-
-# Reshape masks
-for i in range(len(training_masks2)):
-  training_masks2[i] = training_masks2[i].reshape(-1,512,512,1)
-
-for i in range(len(validation_masks2)):
-  validation_masks2[i] = validation_masks2[i].reshape(-1,512,512,1)
-
-for i in range(len(test_masks2)):
-  test_masks2[i] = test_masks2[i].reshape(-1,512,512,1)
 
 
 #
