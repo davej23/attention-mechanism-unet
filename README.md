@@ -15,6 +15,7 @@
 + Figures.ipynb -- Jupyter notebook of figures found in **figures**.
 + predictor.py -- Takes any input RGB image and outputs Attention U-Net-predicted deforestation mask to file.
 + preprocess-4band-amazon-data.py -- Python script to preprocess GeoTIFFs from 4-band Amazon Dataset and export as numpy pickles.
++ preprocess-4band-atlantic-forest-data.py -- Python script to preprocess GeoTIFFs from 4-band Atlantic Forest Dataset and export as numpy pickles.
 + preprocess-rgb-data.py -- Python script to preprocess data in RGB Dataset and export as numpy pickles.
 + requirements.txt -- Required Python libraries.
 
