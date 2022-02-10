@@ -1,6 +1,7 @@
 # MSc Data Science Dissertation/Project
 
-**An Attention-Based U-Net for Detecting Deforestation Within Satellite Sensor Imagery. -- https://www.sciencedirect.com/science/article/pii/S0303243422000113 **
+**An Attention-Based U-Net for Detecting Deforestation Within Satellite Sensor Imagery.** 
+-- https://www.sciencedirect.com/science/article/pii/S0303243422000113
 
 ## Datasets
 ### Amazon 1 (Regular 3-dim Dataset) -- https://zenodo.org/record/3233081
