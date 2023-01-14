@@ -26,7 +26,7 @@ https://www.sciencedirect.com/science/article/pii/S0303243422000113
 + Run pip -r requirements.txt to install libraries.
 + Download 'unet-attention-3d.hdf5', 'unet-attention-4d.hdf5' and 'unet-attention-4d-atlantic.hdf5' models, and place in same directory as script.
 + Run 'python predictor.py [MODEL IDENTIFIER] [INPUT IMAGE PATH]' or 'python3 predictor.py [MODEL IDENTIFIER] [INPUT IMAGE PATH]'.
-  + Model identifier for RGB is 1, 4-band Amazon-trained is 2, 4-band Atlantic Forest-trained is 3.
+  + Model identifier for RGB is 0, 4-band Amazon-trained is 1, 4-band Atlantic Forest-trained is 2.
   + e.g. Get mask prediction of image named 'test.tif' from 4-band Amazon model: 'python predictor.py 2 test.tif'.
 
 ### Obtaining Pre-Processed Data
